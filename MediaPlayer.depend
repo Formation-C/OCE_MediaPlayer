@@ -1,14 +1,44 @@
 # depslib dependency file v1.0
-1575018866 source:d:\devt\formationcpp\mediaplayer\main.cpp
+1575027642 source:d:\devt\formationcpp\mediaplayer\main.cpp
 	<iostream>
 	<string>
 	"Player.h"
 
-1575018929 d:\devt\formationcpp\mediaplayer\include\player.h
+1575026647 d:\devt\formationcpp\mediaplayer\include\player.h
 	<vector>
 	<iostream>
+	"State.h"
+	"StoppedState.h"
 
-1575019732 source:d:\devt\formationcpp\mediaplayer\src\player.cpp
+1575027220 source:d:\devt\formationcpp\mediaplayer\src\player.cpp
 	<algorithm>
 	"Player.h"
+
+1575024877 d:\devt\formationcpp\mediaplayer\include\state.h
+	"Player.h"
+
+1575020304 source:d:\devt\formationcpp\mediaplayer\src\state.cpp
+	"State.h"
+
+1575027343 source:d:\devt\formationcpp\mediaplayer\src\stoppedstate.cpp
+	"StoppedState.h"
+	"PlayingState.h"
+
+1575025159 d:\devt\formationcpp\mediaplayer\include\stoppedstate.h
+	"State.h"
+
+1575027428 source:d:\devt\formationcpp\mediaplayer\src\playingstate.cpp
+	"PlayingState.h"
+	"PausedState.h"
+
+1575026017 d:\devt\formationcpp\mediaplayer\include\playingstate.h
+	<State.h>
+
+1575027440 source:d:\devt\formationcpp\mediaplayer\src\pausedstate.cpp
+	"PausedState.h"
+	"PlayingState.h"
+	"StoppedState.h"
+
+1575026846 d:\devt\formationcpp\mediaplayer\include\pausedstate.h
+	"State.h"
 

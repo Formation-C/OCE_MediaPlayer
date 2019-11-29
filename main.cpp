@@ -1,9 +1,12 @@
 #include <iostream>
+#include <string>
+#include "Player.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    Player player;
+    player.displayTracklist();
     return 0;
 }
